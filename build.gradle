@@ -9,6 +9,8 @@ dependencies {
 
 group 'me.goldensecrets'
 version '0.0.1a'
+targetCompatibility = 1.8
+sourceCompatibility = 1.8
 
 compileJava.options.encoding 'UTF-8'
 
