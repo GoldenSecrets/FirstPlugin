@@ -1,7 +1,9 @@
 package me.goldensecrets;
 
+import kr.entree.spigradle.annotations.PluginMain;
 import org.bukkit.plugin.java.JavaPlugin;
 
+@PluginMain
 public class FirstPlugin extends JavaPlugin {
 
 	//	This is required for all plugins. This happens when your plugin is loaded
