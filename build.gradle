@@ -4,7 +4,7 @@ plugins {
 }
 
 dependencies {
-    compileOnly spigot()
+    compileOnly spigot('1.14')
 }
 
 group 'me.goldensecrets'
@@ -14,7 +14,6 @@ compileJava.options.encoding 'UTF-8'
 
 spigot {
     description 'A sample plugin'
-    depends 'ProtocolLib', 'Vault'
     commands {
         give {
             aliases 'giv', 'i'
